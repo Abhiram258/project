@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div align="center">
+        <button onclick="x()">Click to Change Background</button>
+    </div>
+<script>
+    function x(){
+        const b=['red','blue','green','purple','black'];
+        var a=Math.floor(Math.random()*5);
+        document.body.style.backgroundColor = b[a];
+    }
+</script>
+</body>
+</html>
